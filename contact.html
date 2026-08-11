@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Meridian News</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <a href="index.html" class="logo">Meridian<span class="dot">.</span></a>
+  <nav class="main-nav">
+    <a href="index.html">Home</a>
+    <a href="index.html#politics">Politics</a>
+    <a href="index.html#business">Business</a>
+    <a href="index.html#science">Science & Tech</a>
+    <a href="about.html">About</a>
+    <a href="contact.html" class="active">Contact</a>
+  </nav>
+  <button class="nav-toggle" onclick="document.getElementById('siteHeader').classList.toggle('open')">☰</button>
+</header>
+
+<div class="static-wrap">
+  <p class="eyebrow">Get in touch</p>
+  <h1>Contact Us</h1>
+  <p>Tips, corrections, partnership queries, or feedback? Reach out below.</p>
+  <p><strong>Email:</strong> yourname@yourdomain.com</p>
+
+  <form class="contact-form" onsubmit="alert('Replace this with a real form service like Formspree or Google Forms.'); return false;">
+    <input type="text" placeholder="Your name" required>
+    <input type="email" placeholder="Your email" required>
+    <textarea placeholder="Your message" rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>© 2026 Meridian News. All rights reserved.</div>
+    <div class="footer-links">
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
